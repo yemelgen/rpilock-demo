@@ -1,0 +1,11 @@
+[Unit]
+Description=RPI lock service
+After=network.target
+
+[Service]
+user=pi
+WorkingDirectory=/home/pi/rpilock
+ExecStart=/home/pi/rpilock/backend.py
+
+[Install]
+WantedBy=multi-user.target
