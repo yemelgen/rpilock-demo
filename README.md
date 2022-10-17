@@ -2,6 +2,6 @@
 
 This is my first project I have ever done with Rasperry PI.
 
-It simple and should be good as a learning example. 
+It's simple and should be good as a learning example. 
 
 I hope someone might find it useful.
